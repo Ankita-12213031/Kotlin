@@ -1,0 +1,17 @@
+fun main(args: Array<String>)
+{
+    val x:Int=100 
+    val y:Long=x.toLong() 
+    println(y)
+}
+
+
+
+fun main()
+{
+    var a = "hello"
+    var b: String = a as String 
+    println("unsafe casting result : $b")
+    var c: Int = a as Int
+    println("safe casting result : $c ")
+}
