@@ -1,0 +1,15 @@
+fun main() {
+    val num = arrayOf(1,2,3,4,5)
+    val words: Array<String> = arrayOf("Kotlin")
+    val squares=Array(5){i->i*i}
+    num[2]=55
+    println(num[2])
+    println(words[0])
+    for(n in num)
+    {
+        println(n)
+      
+    }
+    
+   val matrix: Array<Array<Int>> = arrayOf(arrayOf(1,2,3), arrayOf(4,5,6))
+   println(matrix[1][1])
